@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutters/providers/tts.provider.dart';
-import 'package:flutters/screens/ads.screen.dart';
+import 'package:flutters/screens/tts.screen.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
 
@@ -19,6 +19,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: AdsScreen());
+    return MaterialApp(home: TTSScreen());
   }
 }
